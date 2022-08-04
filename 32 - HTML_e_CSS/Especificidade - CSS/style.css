@@ -1,0 +1,22 @@
+/* 
+ID | Class, Atributos e Pseudo-classes | Elementos e Pseudo-Elementos 
+
+1                   0                                 0
+
+1                   1                                 0
+
+1                   1                                 1
+
+*/
+
+#p{
+    background: red;
+}
+
+#p.p{
+    background: yellow;
+}
+
+p#p.p{
+    background: purple;
+}
