@@ -20,4 +20,5 @@ Link - https://www.udemy.com/course/curso-de-javascript-moderno-do-basico-ao-ava
 * 4 - Javascript - Arrays
 * 5 - Javascript Objetos e prototypes
 * 6 - Javascript Classes - POO
+* 7 - Javascript Assíncrono - Promises, Ajax, Fetch e Asysc/Await
 
