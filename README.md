@@ -38,4 +38,5 @@ $ npm run dev
 * 7 - Javascript Assíncrono - Promises, Ajax, Fetch e Async/
 Await
 * 8 - Javascript Tooling e ES6 Modules
-
+* 9 - Javascript Node, Npm, Express e MongoDB
+* 10 - Javascript + Node - Projeto Agenda (com Express + MongoDB)
