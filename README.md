@@ -22,8 +22,6 @@ Após a instalação para rodar o webpack digite na linha de comando
 $ npm run dev
 ```
 
-
-
 ## 🛠️ Construído com
 
 * [Visual Studio Code](https://code.visualstudio.com/) - Editor de código para construção e debbuging de apps modernos e aplicações em nuvem.
@@ -35,9 +33,10 @@ $ npm run dev
 * 4 - Javascript - Arrays
 * 5 - Javascript Objetos e prototypes
 * 6 - Javascript Classes - POO
-* 7 - Javascript Assíncrono - Promises, Ajax, Fetch e Async/
-Await
+* 7 - Javascript Assíncrono - Promises, Ajax, Fetch e Async/Await
 * 8 - Javascript Tooling e ES6 Modules
 * 9 - Javascript Node, Npm, Express e MongoDB
 * 10 - Javascript + Node - Projeto Agenda (com Express + MongoDB)
 * 11 - Linux - Deploy da aplicação e segurança + Chaves SSH
+* 12 - API REST - Javascript, Node, Express e SQL (MySQL ou MariaDB)
+* 13 - React com componentes de classe(Básico) - Javascript 
