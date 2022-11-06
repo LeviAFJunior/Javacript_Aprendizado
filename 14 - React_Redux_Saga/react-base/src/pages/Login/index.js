@@ -1,19 +1,30 @@
 import React from "react";
+import { useDispatch } from "react-redux";
 
 import { Container } from "../../styles/GlobalStyles";
 import { Title, Paragrafo } from "./styled";
+import * as exampleActions from "../../store/modules/examples/actions";
 
-import axios from "../../services/axios";
+// import axios from "../../services/axios";
 
 export default function Login() {
-  React.useEffect(() => {
-    async function getData() {
-      const response = await axios.get("/alunos");
-      console.log(response);
-    }
+  const dispatch = useDispatch();
 
-    getData();
-  }, []);
+  // React.useEffect(() => {
+  //   async function getData() {
+  //     const response = await axios.get("/alunos");
+  //     const { data } = response;
+  //     // eslint-disable-next-line no-console
+  //     console.log(data);
+  //   }
+
+  //   getData();
+  // }, []);
+
+  function handleClick(e) {
+    e.preventDefault();
+    dispatch(exampleActions.clicaBotaoRequest());
+  }
 
   return (
     <Container>
@@ -22,7 +33,9 @@ export default function Login() {
         <small>Oie</small>
       </Title>
       <Paragrafo>Lorem ipsum dolor sit, amet</Paragrafo>
-      <button type="button">Enviar</button>
+      <button type="button" onClick={handleClick}>
+        Enviar
+      </button>
     </Container>
   );
 }
